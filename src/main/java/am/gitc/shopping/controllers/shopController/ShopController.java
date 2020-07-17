@@ -7,12 +7,12 @@ import org.springframework.web.servlet.ModelAndView;
 
 @Controller
 public class ShopController {
-    @GetMapping("/category")
-    public ModelAndView category(){
-        ModelAndView modelAndView = new ModelAndView();
-        modelAndView.setViewName("user/shop/category");
-        return modelAndView;
-    }
+//    @GetMapping("/category")
+//    public ModelAndView category(){
+//        ModelAndView modelAndView = new ModelAndView();
+//        modelAndView.setViewName("user/shop/category");
+//        return modelAndView;
+//    }
 
     @GetMapping("/product")
     public ModelAndView product(){
